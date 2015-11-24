@@ -14,8 +14,13 @@
 
 .header .navbar-toggler {
   float: left;
+  background-color: #666;
+  color: white;
 }
-
+.header .navbar-toggler.collapsed {
+  background-color: none;
+  color: #666;
+}
 .header .navbar-brand a {
   font: 0/0 a;
   color: transparent;
@@ -123,12 +128,15 @@
   border-color: #bbb;
   border-color: rgba(0, 0, 0, 0.2);
   padding: 3px 7px;
+  background-color: white;
+  color: #666;
 }
 .header .block-menu li a:hover,
 .header .block-menu li a:focus,
 .header .block-menu li a:active {
   text-decoration: none;
   background: rgba(255, 255, 255, 0.15);
+  color: #222;
 }
 .header .block-menu li:last-child a {
   border-bottom: 0;
@@ -219,7 +227,7 @@
   border-bottom: none;
 }
 
-.header .navbar-nav {
+.header .navbar-navs {
   float: left;
 }
 
