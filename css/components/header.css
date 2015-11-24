@@ -17,9 +17,12 @@
 }
 
 .header .navbar-brand a {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
   height:98px;
   display:block;
-  text-indent: -1000px;
   background:url(../../images/logo.png) right top no-repeat;
   width: 261px;
 }
