@@ -200,17 +200,17 @@
   background: rgba(255, 255, 255, 0.9);
 }
 
-@media all and (max-width: 420px) {
-  .header .navbar-form {
-    float: none;
-    display: block;
-    clear: both;
-  }
+.header .navbar-form {
+  float: none;
+  display: block;
+  clear: both;
 }
 /* Search block in header region. */
-.header .navbar-form {
-  float: right;
-  clear: right;
+@media all and (min-width: 480px) {
+  .header .navbar-form {
+    float: right;
+    clear: right;
+  }
 }
 .header #block-search-form .form-text {
   width: 154px;
