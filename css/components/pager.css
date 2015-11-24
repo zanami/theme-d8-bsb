@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Styles for Bartik's pagination.
+ */
+
+/* Using .pager selector on the first one to override .region-content ul. */
+
+li.pager__item--ellipsis {
+  position: relative;
+  float: left;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.5;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd
+}

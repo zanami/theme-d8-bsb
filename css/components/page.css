@@ -1,0 +1,12 @@
+/**
+ * @file
+ * General page styling
+ */
+
+body {
+  background-color: #efefcc;
+}
+
+.container-fluid {
+  max-width: 80em;
+}

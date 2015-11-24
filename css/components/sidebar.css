@@ -1,0 +1,40 @@
+/* ------------------ Sidebar ----------------- */
+
+.sidebar .block {
+  border-style: solid;
+  border-width: 0px;
+  margin: 0 0 20px;
+}
+.sidebar h2 {
+  margin: 0 0 0.5em;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 5px;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 1.071em;
+  line-height: 1.2;
+}
+.sidebar .block .content {
+  font-size: 0.914em;
+  line-height: 1.4;
+}
+.sidebar tbody {
+  border: none;
+}
+.sidebar tr.even,
+.sidebar tr.odd {
+  background: none;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+/* main and other menus in sidebar */
+
+.sidebar .nav-item .nav-link {
+  padding: 3px 8px;
+  display: block;
+  color: #333;
+}
+
+.sidebar .nav-item.menu-item--active-trail .nav-link,
+.sidebar .nav-item .nav-link:hover {
+  background-color: #dfdfbb;
+}

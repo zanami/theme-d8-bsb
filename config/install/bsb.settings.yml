@@ -1,0 +1,78 @@
+# Layout
+# --------------
+bsb_sidebar_position: 'both'
+bsb_content_offset: 0
+bsb_sidebar_first_width: 3
+bsb_sidebar_first_offset: 0
+bsb_sidebar_second_width: 3
+bsb_sidebar_second_offset: 0
+bsb_footer_layout: '1-1-1-1-1'
+
+# Container
+# --------------
+bsb_fluid_container: 1
+
+# Buttons
+# --------------
+bsb_button_size: ''
+bsb_button_outline: 0
+
+# Navbar
+# --------------
+bsb_navbar_top_position: ''
+bsb_navbar_top_color: 0
+bsb_navbar_top_background: 'faded'
+bsb_navbar_position: ''
+bsb_navbar_color: 'dark'
+bsb_navbar_background: 'default'
+
+# Anchors
+# --------------
+bsb_anchors_fix: 1
+bsb_anchors_smooth_scrolling: 1
+
+# Forms
+# --------------
+bsb_forms_required_has_error: 0
+bsb_forms_has_error_value_toggle: 1
+bsb_forms_smart_descriptions: 1
+bsb_forms_smart_descriptions_limit: 250
+bsb_forms_smart_descriptions_allowed_tags: 'b, code, em, i, kbd, span, strong'
+
+
+# Popovers
+# --------------
+bsb_popover_enabled: 0
+bsb_popover_animation: 1
+bsb_popover_html: 0
+bsb_popover_placement: 'right'
+bsb_popover_selector: ''
+bsb_popover_trigger:
+  hover: 0
+bsb_popover_trigger:
+  focus: 0
+bsb_popover_trigger:
+  click: 'click'
+bsb_popover_trigger_autoclose: 1
+bsb_popover_title: ''
+bsb_popover_content: ''
+bsb_popover_delay: 0
+bsb_popover_container: 'body'
+
+# Tooltips
+# --------------
+bsb_tooltip_enabled: 0
+bsb_tooltip_descriptions: 1
+bsb_tooltip_descriptions_length: 200
+bsb_tooltip_animation: 1
+bsb_tooltip_html: 0
+bsb_tooltip_placement: 'auto left'
+bsb_tooltip_selector: ''
+bsb_tooltip_trigger:
+  hover: 'hover'
+bsb_tooltip_trigger:
+  focus: 'focus'
+bsb_tooltip_trigger:
+  click: 0
+bsb_tooltip_delay: 0
+bsb_tooltip_container: 'body'
