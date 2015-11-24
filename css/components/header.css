@@ -6,7 +6,10 @@
   position: relative;
 }
 .header {
-  padding: 0.357em 0 0;
+  padding: 1rem 0 0.5rem 0;
+}
+.header .navbar{
+  padding: 0;
 }
 .header .site-branding {
   margin-top: 0.429em;
