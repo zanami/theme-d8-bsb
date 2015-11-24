@@ -276,7 +276,7 @@ function bsb_theme_suggestions_form_alter(array &$suggestions, array $variables)
  * Implements hook_form_alter() to add classes to the search form.
 */
 function bsb_form_alter(&$form, FormStateInterface $form_state, $form_id) {
-  if (in_array($form_id, ['search_block_form', 'search_form'])) {
+  switch ($form_id) {
 //    $key = ($form_id == 'search_block_form') ? 'actions' : 'basic';
 //    if (!isset($form[$key]['submit']['#attributes'])) {
 //      $form[$key]['submit']['#attributes'] = new Attribute();
@@ -284,8 +284,14 @@ function bsb_form_alter(&$form, FormStateInterface $form_state, $form_id) {
 //    $outline = theme_get_setting('bsb_button_outline') ? 'btn-primary-outline' : 'btn-primary';
 // If use the $outline variable, HTML crashes. Even if use the value directly 
 //    $form[$key]['submit']['#attributes']->addClass(array('btn', 'btn-primary', 'btn-sm'));
-    $form['actions']['#attributes']['class'][] = 'visually-hidden';
-    $form['keys']['#attributes']['placeholder'] = (string) t("Search");
+      case 'search_block_form':
+        $form['actions']['#attributes']['class'][] = 'visually-hidden';
+        $form['keys']['#attributes']['placeholder'] = (string) t('Search');
+        break;
+      case 'search_form':
+        $form['basic']['#attributes']['class'][] = 'search-basic';
+        unset($form['basic']['#attributes']['class'][array_search('container-inline', $form['basic']['#attributes']['class'])]);
+        break;
   }
 }
 /**
