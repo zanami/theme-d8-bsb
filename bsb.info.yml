@@ -48,3 +48,5 @@ regions:
   footer_fifth: 'Footer fifth'
 
 
+version: '8.x-1.0-alpha1'
+core: '8.x'
