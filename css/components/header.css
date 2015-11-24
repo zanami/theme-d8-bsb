@@ -6,7 +6,7 @@
   position: relative;
 }
 .header {
-  padding: 0.357em 15px 0;
+  padding: 0.357em 0 0;
 }
 .header .site-branding {
   margin-top: 0.429em;
@@ -27,14 +27,14 @@
   width: 261px;
 }
 
-@media all and (min-width: 48em) {
+@media all and (min-width: 768px) {
   .header .navbar-brand a {
     width: 461px;
   }
 
 }
 
-@media all and (min-width: 48em) {
+@media all and (min-width: 768px) {
   .header .block {
     float: right; /* LTR */
     margin-top: 0.357em;
@@ -192,9 +192,11 @@
   background: rgba(255, 255, 255, 0.9);
 }
 .header .navbar-form {
-  float: left;
+  float: none;
+  display: block;
+  clear: both;
 }
-@media all and (min-width: 48em) {
+@media all and (min-width: 768px) {
   /* Search block in header region. */
   .header .navbar-form {
     width: 20em;
