@@ -284,9 +284,9 @@ function bsb_form_alter(&$form, FormStateInterface $form_state, $form_id) {
 //    $outline = theme_get_setting('bsb_button_outline') ? 'btn-primary-outline' : 'btn-primary';
 // If use the $outline variable, HTML crashes. Even if use the value directly 
 //    $form[$key]['submit']['#attributes']->addClass(array('btn', 'btn-primary', 'btn-sm'));
-//  }
     $form['actions']['#attributes']['class'][] = 'visually-hidden';
-    $form['keys']['#attributes']['placeholder'] = t("Search");
+    $form['keys']['#attributes']['placeholder'] = (string) t("Search");
+  }
 }
 /**
  * Implements hook_preprocess_input() to add classes to inputs.
