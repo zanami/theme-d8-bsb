@@ -191,7 +191,9 @@
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
 }
-
+.header #block-search-form {
+  float: left;
+}
 @media all and (min-width: 48em) {
   /* Search block in header region. */
   .header #block-search-form {
