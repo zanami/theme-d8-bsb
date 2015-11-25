@@ -25,38 +25,6 @@
   color: #666;
 }
 
-.header .site-branding__logo a {
-  background-color: transparent;
-  height: 98px;
-  display: block;
-  background: url(../../images/gerb.svg) right top no-repeat;
-  width: 61px;
-}
-.header .site-branding__logo a img {
-  display: none;
-}
-
-.header .site-branding__name a {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  height: 98px;
-  display: block;
-  background: url(../../images/ahph.svg) right top no-repeat;
-  width: 261px;
-}
-
-
-@media all and (min-width: 768px) {
-  .header .site-branding__name a {
-  }
-  .header .site-branding__logo a {
-    width: 361px;
-  }
-
-}
-
 @media all and (min-width: 768px) {
   .header .block {
     float: right; /* LTR */

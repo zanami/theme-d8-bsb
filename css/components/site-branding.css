@@ -3,43 +3,34 @@
  * Visual styles for the site branding block in Bartik.
  */
 
-.site-branding__logo {
-  display: inline-block;
-  margin-right: 1em; /* LTR */
-  margin-bottom: 0.286em;
+.site-branding__logo a {
+  background-color: transparent;
+  height: 98px;
+  display: block;
+  background: url(../../images/gerb.svg) right top no-repeat;
+  width: 61px;
 }
-[dir="rtl"] .site-branding__logo {
-  margin-right: 0;
-  margin-left: 1em;
+.site-branding__logo a img {
+  display: none;
 }
-.site-branding__text {
-  display: inline-block;
-  vertical-align: top;
+
+.site-branding__name a {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  height: 98px;
+  display: block;
+  background: url(../../images/ahph.svg) right top no-repeat;
+  width: 261px;
 }
-@media all and (min-width: 461px) {
-  .site-branding__text {
-    margin-bottom: 1.857em;
+
+
+@media all and (min-width: 768px) {
+  .site-branding__name a {
   }
-}
-@media all and (min-width: 901px) {
-  .site-branding__text {
-    padding: 1.286em 0 0;
+  .site-branding__logo a {
+    width: 361px;
   }
-}
-.site-branding__name {
-  font-size: 1.6em;
-  color: #686868;
-  line-height: 1;
-}
-@media all and (min-width: 901px) {
-  .site-branding__name {
-    font-size: 1.821em;
-  }
-}
-.site-branding__slogan {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.929em;
-  margin-top: 7px;
-  word-spacing: 0.1em;
-  font-style: italic;
+
 }
