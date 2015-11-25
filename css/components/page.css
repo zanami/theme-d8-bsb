@@ -19,13 +19,11 @@ body {
     background-position-x: -400px;
   }
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 80em) {
   #page {
-    background-position-x: calc(50% - 640px);
+    background-position-x: calc(50% - 40em);
   }
 }
-
-  
 
 .container-fluid {
   max-width: 80em;
