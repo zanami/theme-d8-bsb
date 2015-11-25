@@ -7,12 +7,15 @@ body {
   background-color: #ffffff;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2db+0,ffffff+100 */
   background: #e2e2db; /* Old browsers */
-  background: -moz-linear-gradient(top, #e2e2db 0%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #e2e2db 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #e2e2db 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #e2e2db 0%, #ffffff 720px); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e2e2db 0%,#ffffff 720px); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e2e2db 0%,#ffffff 720px); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2db', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
+#page {
+  background: url(../../images/map.svg) left top no-repeat;
+}
 .container-fluid {
   max-width: 80em;
 }
