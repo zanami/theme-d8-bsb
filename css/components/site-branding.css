@@ -3,14 +3,14 @@
  * Visual styles for the site branding block in Bartik.
  */
 
-.site-branding__logo a {
+.site-branding__logo {
   background-color: transparent;
   height: 98px;
   display: block;
   background: url(../../images/gerb.svg) right top no-repeat;
   width: 61px;
 }
-.site-branding__logo a img {
+.site-branding__logo img {
   display: none;
 }
 
@@ -29,7 +29,7 @@
 @media all and (min-width: 768px) {
   .site-branding__name a {
   }
-  .site-branding__logo a {
+  .site-branding__logo {
     width: 361px;
   }
 
