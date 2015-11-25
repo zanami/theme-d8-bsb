@@ -13,9 +13,20 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2db', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-#page {
-  background: url(../../images/map.svg) left top no-repeat;
+@media all and (min-width: 768px) {
+  #page {
+    background: url(../../images/map.svg) left top no-repeat;
+    background-position-x: -400px;
+  }
 }
+@media all and (min-width: 768px) {
+  #page {
+    background-position-x: calc(50% - 640px);
+  }
+}
+
+  
+
 .container-fluid {
   max-width: 80em;
 }
