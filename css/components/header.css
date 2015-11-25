@@ -24,7 +24,19 @@
   background-color: transparent;
   color: #666;
 }
-.header .navbar-brand a {
+
+.header .site-branding__logo a {
+  background-color: transparent;
+  height: 98px;
+  display: block;
+  background: url(../../images/gerb.svg) right top no-repeat;
+  width: 61px;
+}
+.header .site-branding__logo a img {
+  display: none;
+}
+
+.header .site-branding__name a {
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
@@ -35,9 +47,12 @@
   width: 261px;
 }
 
+
 @media all and (min-width: 768px) {
-  .header .navbar-brand a {
-    width: 461px;
+  .header .site-branding__name a {
+  }
+  .header .site-branding__logo a {
+    width: 361px;
   }
 
 }
