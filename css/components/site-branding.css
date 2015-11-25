@@ -5,10 +5,12 @@
 
 .site-branding__logo {
   background-color: transparent;
-  height: 98px;
+  height: 138px;
+  margin-top: -18px;
+  margin-bottom: -30px;
   display: block;
   background: url(../../images/gerb.svg) right top no-repeat;
-  width: 61px;
+  width: 81px;
 }
 .site-branding__logo img {
   display: none;
@@ -30,7 +32,7 @@
   .site-branding__name a {
   }
   .site-branding__logo {
-    width: 361px;
+    width: 350px;
   }
 
 }
