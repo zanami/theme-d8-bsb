@@ -3,6 +3,10 @@
  * Visual styles for Bartik's node component.
  */
 
+.node__title {
+  color: #007fb3;
+}
+
 .node__content {
   font-size: 1.071em;
   margin-top: 10px;
